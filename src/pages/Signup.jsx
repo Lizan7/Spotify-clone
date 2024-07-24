@@ -4,10 +4,10 @@ import logo from "../assets/logo.svg"
 const Signup = () => {
     return (
 
-        <div className='flex h-screen w-screen'>
+        <div className='flex flex-col h-screen w-screen bg-[#121212] justify-around gap-14'>
 
             {/* main div */}
-            <div className=' flex flex-col  h-screen w-screen  justify-center items-center bg-[#121212] pt-8 gap-8'>
+            <div className=' flex flex-col  justify-center items-center  pt-8 gap-8'>
 
                 {/* logo and sign in */}
                 <div className='flex flex-col justify-center items-center gap-5'>
@@ -65,6 +65,11 @@ const Signup = () => {
                 </div>
 
             </div >
+
+            <div className='flex items-center justify-center '>
+                <p className='text-[#a7a7a7] font-extralight text-xs w-72 text-center '>This site is protected by reCAPTCHA and the Google <u>Privacy Policy</u> and <u>Terms of Service</u> apply.</p>
+            </div>
+
 
 
         </div>
