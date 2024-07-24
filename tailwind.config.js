@@ -3,6 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+
+      fontFamily: {
+        spotify: ['Spotify Circular', 'sans-serif'],
+      },
+
+
+
+
       colors: {
         cardBackground: "#121212",
         background: "#000000",
